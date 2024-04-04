@@ -10,4 +10,16 @@
     padding: 0;
     margin: 0;
   }
+  .sidebar-nav {
+    background-color: grey; /* Setting background color to grey */
+  }
   
+  .sidebar-nav a {
+    font-size: 20px; /* Setting font size to 20 */
+    color: white; /* Changing font color to white, assuming the default text color is white */
+    text-decoration: none; /* Removing underline from links */
+  }
+  
+  .sidebar-nav a:hover {
+    color: lightgrey; /* Changing font color on hover */
+  }
